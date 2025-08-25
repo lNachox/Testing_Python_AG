@@ -1,6 +1,5 @@
-import numpy as np # type: ignore
-import matplotlib.pyplot as plt # type: ignore
-
+import numpy as np
+import matplotlib.pyplot as plt
 
 def triangular_superior(A: np.ndarray) -> bool:
     # Verifica si A es cuadrada y si es triangular superior (estrictamente bajo
