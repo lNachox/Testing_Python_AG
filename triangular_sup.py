@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def triangular_superior(A: np.ndarray) -> bool:
-    # Verifica si A es cuadrada y si es triangular superior (estrictamente bajo
-    # la diagonal principal todos ceros). Imprime los mensajes y retorna True/False.
+    # Verifica si A es cuadrada y si es triangular superior (estrictamente bajo la diagonal principal todos ceros).
+    # Imprime los mensajes y retorna True/False.
     if not isinstance(A, np.ndarray) or A.ndim != 2:
         print("La entrada no es una matriz 2D de NumPy.")
         return False
